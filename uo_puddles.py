@@ -615,5 +615,3 @@ def robust_bayes_tester(testing_table:dframe, evidence_bag:dict, training_table:
     p_tuple = robust_bayes(e_set, evidence_bag, training_table)
     result_list.append(p_tuple)
   return result_list
-
-
